@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Topics tagged voting</title>
+    <meta name="description" content="Topics tagged voting">
+    <meta name="generator" content="Discourse 3.1.0.beta3 - https://github.com/discourse/discourse version 2809d7ba8e0485eb182b238dd21eeb59c5eba7d1">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/apecoin/optimized/1X/5f6ded5c91cffb569faa208776309b3229530244_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/apecoin/optimized/1X/5f6ded5c91cffb569faa208776309b3229530244_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="https://forum.apecoin.com/tag/voting" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://forum.apecoin.com/opensearch.xml" title="ApeCoin DAO Search">
+
+    <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/color_definitions_dark_1_1_c6e9290673b80f5bdc21d5bb4b6885a25a14d391.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" class="light-scheme"/><link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/color_definitions_dark_1_1_c6e9290673b80f5bdc21d5bb4b6885a25a14d391.css?__ws=forum.apecoin.com" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/desktop_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-akismet_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-assign_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-assign"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-cakeday_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-cartan-token-gate_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-cartan-token-gate"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-chat-integration_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-checklist_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-data-explorer_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-details_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-footnote_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-lazy-videos_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-local-dates_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-narrative-bot_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-policy_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-policy"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-presence_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-solved_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-spoiler-alert_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-templates_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-templates"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-topic-voting_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-topic-voting"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/hosted-site_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/poll_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/discourse-topic-voting_desktop_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="discourse-topic-voting_desktop"  />
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/poll_desktop_416e354c7c5d19df76c4be37cbd65728d535cec0.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sea2.discourse-cdn.com/apecoin/stylesheets/desktop_theme_1_6ddd4a466ef19440f209ec82a9767647879934ea.css?__ws=forum.apecoin.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1" data-theme-name="default"/>
+
+    
+    <meta id="data-ga-universal-analytics" data-tracking-code="G-W4PPBFYZBJ" data-json="{&quot;cookieDomain&quot;:&quot;forum.apecoin.com&quot;}" data-auto-link-domains="">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4PPBFYZBJ"></script>
+  <link rel="preload" href="https://global.discourse-cdn.com/apecoin/assets/google-universal-analytics-v4-2bb8adb2b3d4e54eb20ba9da5e8d181e5703e17472fea680c822deedbf8d7675.js" as="script">
+<script defer src="https://global.discourse-cdn.com/apecoin/assets/google-universal-analytics-v4-2bb8adb2b3d4e54eb20ba9da5e8d181e5703e17472fea680c822deedbf8d7675.js"></script>
+
+
+        <link rel="next" href="/tag/voting?match_all_tags=true&amp;page=1&amp;tags%5B%5D=voting">
+    <link rel="alternate" type="application/rss+xml" title="Latest posts" href="https://forum.apecoin.com/posts.rss" />
+    <link rel="alternate" type="application/rss+xml" title="latest Latest topics top Top topics top_all All time top topics top_yearly Yearly top topics top_quarterly Quarterly top topics top_monthly Monthly top topics top_weekly Weekly top topics top_daily Daily top topics posts Latest posts private_posts Latest personal messages group_posts Latest posts from %{group_name} group_mentions Latest mentions from %{group_name} user_posts Latest posts by @%{username} user_topics Latest topics by @%{username} tag Tagged topics badge %{display_name} badge on %{site_title}" href="https://forum.apecoin.com/tag/voting" />
+    <meta property="og:site_name" content="ApeCoin DAO" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" />
+<meta property="og:image" content="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" />
+<meta property="og:url" content="https://forum.apecoin.com/tag/voting" />
+<meta name="twitter:url" content="https://forum.apecoin.com/tag/voting" />
+<meta property="og:title" content="Topics tagged voting" />
+<meta name="twitter:title" content="Topics tagged voting" />
+<meta property="og:description" content="Topics tagged voting" />
+<meta name="twitter:description" content="Topics tagged voting" />
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">
+    ApeCoin DAO
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+      
+
+
+  <h1>
+    <a itemprop="item" href="https://forum.apecoin.com/tag/voting">
+      <span itemprop='name'>voting</span>
+</a>  </h1>
+
+
+<div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+  <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+
+  <table class='topic-list'>
+
+    <thead>
+      <tr>
+        <th>Topic</th>
+        <th></th>
+        <th class="replies">Replies</th>
+        <th class="views">Views</th>
+        <th>Activity</th>
+      </tr>
+    </thead>
+
+    <tbody>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='1'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/democratic-consensus/11761' class='title raw-link raw-topic-link'>Democratic Consensus</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/aip-ideas/20' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #0054F9'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>AIP Ideas</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/test' class='discourse-tag'>test</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/CEOofWeb3.0" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/ceoofweb3.0/25/4370_2.png" class="avatar" title='CEOofWeb3.0 - Original Poster' aria-label='CEOofWeb3.0 - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Sasha" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/sasha/25/1028_2.png" class="avatar" title='Sasha - Frequent Poster' aria-label='Sasha - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/0xSword" class="latest">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/0xsword/25/4923_2.png" class="avatar" title='0xSword - Most Recent Poster' aria-label='0xSword - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>94</span>
+          </td>
+          <td>
+            April 11, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='2'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-208-reflecting-on-aip161-feedback-and-revising-proposed-reward/10766' class='title raw-link raw-topic-link'>AIP-208: Reflecting on AIP161 Feedback and Revising Proposed Reward</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/accepted-aips/23' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #CD41E5'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Accepted AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/treasury' class='discourse-tag'>treasury</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/codeislight" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/codeislight/25/4142_2.png" class="avatar" title='codeislight - Original Poster' aria-label='codeislight - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Frequent Poster' aria-label='system - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Pearson" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/p/a9a28c/25.png" class="avatar" title='Pearson - Frequent Poster' aria-label='Pearson - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Hangout" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/hangout/25/4123_2.png" class="avatar" title='Hangout - Frequent Poster' aria-label='Hangout - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Lost.Admin" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/l/f1d935/25.png" class="avatar" title='Lost.Admin - Most Recent Poster' aria-label='Lost.Admin - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>18</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>1290</span>
+          </td>
+          <td>
+            April 6, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='3'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-179-nftcg-generation-2-apecoin-dao-physical-digital-trading-card-game/9743' class='title raw-link raw-topic-link'>AIP-179: NFTCG Generation 2 - ApeCoin DAO Physical &amp; Digital Trading Card Game</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/administrative-review/36' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #ff6704'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Administrative Review</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/Lycaon.eth" class="latest">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/lycaon.eth/25/3594_2.png" class="avatar" title='Lycaon.eth - Original Poster, Most Recent Poster' aria-label='Lycaon.eth - Original Poster, Most Recent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Pearson" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/p/a9a28c/25.png" class="avatar" title='Pearson - Frequent Poster' aria-label='Pearson - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/_Drebin" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/_drebin/25/3709_2.png" class="avatar" title='_Drebin - Frequent Poster' aria-label='_Drebin - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/river" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/76d3ee/25.png" class="avatar" title='river - Frequent Poster' aria-label='river - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/BlueMountain" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/bluemountain/25/4135_2.png" class="avatar" title='BlueMountain - Frequent Poster' aria-label='BlueMountain - Frequent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>46</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>2363</span>
+          </td>
+          <td>
+            March 8, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='4'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/allocate-45-000-ape-to-silo-finance-lending-market/10995' class='title raw-link raw-topic-link'>Allocate 45,000 APE to Silo Finance Lending Market</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/withdrawn/18' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #9D9D9C'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Withdrawn AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/treasury' class='discourse-tag'>treasury</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/Tenzent" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/tenzent/25/2924_2.png" class="avatar" title='Tenzent - Original Poster' aria-label='Tenzent - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Crypto_Actuary" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/crypto_actuary/25/4542_2.png" class="avatar" title='Crypto_Actuary - Frequent Poster' aria-label='Crypto_Actuary - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Kuddo" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/kuddo/25/4083_2.png" class="avatar" title='Kuddo - Frequent Poster' aria-label='Kuddo - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Frequent Poster' aria-label='system - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/amplify.admin" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/a/c6cbf5/25.png" class="avatar" title='amplify.admin - Most Recent Poster' aria-label='amplify.admin - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>9</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>977</span>
+          </td>
+          <td>
+            March 1, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='5'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-124-thank-ape-decentralized-automated-rewards-for-valuable-apecoin-contributions/8564' class='title raw-link raw-topic-link'>AIP-124: Thank APE: Decentralized, Automated Rewards for Valuable ApeCoin Contributions</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/accepted-aips/23' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #CD41E5'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Accepted AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/treasury' class='discourse-tag'>treasury</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/thrivegiraffe" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/thrivegiraffe/25/2866_2.png" class="avatar" title='thrivegiraffe - Original Poster' aria-label='thrivegiraffe - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Marklar" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/marklar/25/2718_2.png" class="avatar" title='Marklar - Frequent Poster' aria-label='Marklar - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/zheerwagen" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/z/a3d4f5/25.png" class="avatar" title='zheerwagen - Frequent Poster' aria-label='zheerwagen - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/river" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/76d3ee/25.png" class="avatar" title='river - Frequent Poster' aria-label='river - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/moonkt" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/m/eb8c5e/25.png" class="avatar" title='moonkt - Most Recent Poster' aria-label='moonkt - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>82</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>4623</span>
+          </td>
+          <td>
+            January 26, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='6'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-136-apecoin-community-goes-racing-at-daytona-international-speedway/8841' class='title raw-link raw-topic-link'>AIP-136: ApeCoin Community goes racing at Daytona International Speedway</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/rejected-aips/25' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #ED185A'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Rejected AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/raceape" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/5e9695/25.png" class="avatar" title='raceape - Original Poster' aria-label='raceape - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/HODLMSTR" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/hodlmstr/25/3083_2.png" class="avatar" title='HODLMSTR - Frequent Poster' aria-label='HODLMSTR - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Mantis" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/mantis/25/2853_2.png" class="avatar" title='Mantis - Frequent Poster' aria-label='Mantis - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/StoicDegen" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/stoicdegen/25/2788_2.png" class="avatar" title='StoicDegen - Frequent Poster' aria-label='StoicDegen - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/moonkt" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/m/eb8c5e/25.png" class="avatar" title='moonkt - Most Recent Poster' aria-label='moonkt - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>31</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>1519</span>
+          </td>
+          <td>
+            January 19, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='7'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/a-public-letter-to-cartan-group/10732' class='title raw-link raw-topic-link'>A Public Letter to Cartan Group </a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/general/14' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #D0D0D0'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>General</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip-report' class='discourse-tag'>aip-report</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/Harry" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/harry/25/3008_2.png" class="avatar" title='Harry - Original Poster' aria-label='Harry - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/moderator" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/moderator/25/1722_2.png" class="avatar" title='moderator - Frequent Poster' aria-label='moderator - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/AllCityBAYC" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/allcitybayc/25/3671_2.png" class="avatar" title='AllCityBAYC - Frequent Poster' aria-label='AllCityBAYC - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="latest">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Most Recent Poster' aria-label='system - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>6</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>846</span>
+          </td>
+          <td>
+            February 16, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='8'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-119-commercialize-your-nfts-on-irl-wine-wine3-x-bayc-limited-edition-wine-drop-sponsored-by-apecoin/8410' class='title raw-link raw-topic-link'>AIP-119: Commercialize your NFTs on IRL Wine: WINE3 X BAYC Limited-Edition Wine Drop, Sponsored by ApeCoin</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/rejected-aips/25' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #ED185A'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Rejected AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/WineGuy" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/wineguy/25/2723_2.png" class="avatar" title='WineGuy - Original Poster' aria-label='WineGuy - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/ap3father" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/ap3father/25/2520_2.png" class="avatar" title='ap3father - Frequent Poster' aria-label='ap3father - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Frequent Poster' aria-label='system - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/river" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/76d3ee/25.png" class="avatar" title='river - Frequent Poster' aria-label='river - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Escape" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/e/f475e1/25.png" class="avatar" title='Escape - Most Recent Poster' aria-label='Escape - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>31</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>1826</span>
+          </td>
+          <td>
+            January 12, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='9'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-121-transparency-act-for-ecosystem-fund-allocation/8544' class='title raw-link raw-topic-link'>AIP-121: Transparency Act for Ecosystem Fund Allocation</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/accepted-aips/23' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #CD41E5'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Accepted AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/giacolmo.eth" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/giacolmo.eth/25/1200_2.png" class="avatar" title='giacolmo.eth - Original Poster' aria-label='giacolmo.eth - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Marklar" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/marklar/25/2718_2.png" class="avatar" title='Marklar - Frequent Poster' aria-label='Marklar - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Amplify" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/amplify/25/1456_2.png" class="avatar" title='Amplify - Frequent Poster' aria-label='Amplify - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/river" class="">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/76d3ee/25.png" class="avatar" title='river - Frequent Poster' aria-label='river - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Escape" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/e/f475e1/25.png" class="avatar" title='Escape - Most Recent Poster' aria-label='Escape - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>31</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>2057</span>
+          </td>
+          <td>
+            January 12, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='10'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-114-otherdeeds-staking-pool-allocation/8258' class='title raw-link raw-topic-link'>AIP-114: Otherdeeds Staking Pool Allocation</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/withdrawn/18' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #9D9D9C'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Withdrawn AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/treasury' class='discourse-tag'>treasury</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/GregNorman" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/gregnorman/25/2687_2.png" class="avatar" title='GregNorman - Original Poster' aria-label='GregNorman - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Moonlyght" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/moonlyght/25/4780_2.png" class="avatar" title='Moonlyght - Frequent Poster' aria-label='Moonlyght - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Geck" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/geck/25/2543_2.png" class="avatar" title='Geck - Frequent Poster' aria-label='Geck - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Marklar" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/marklar/25/2718_2.png" class="avatar" title='Marklar - Frequent Poster' aria-label='Marklar - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Escape" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/e/f475e1/25.png" class="avatar" title='Escape - Most Recent Poster' aria-label='Escape - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>32</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>2128</span>
+          </td>
+          <td>
+            January 12, 2023
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='11'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/construction-of-physical-bayc-monument/8969' class='title raw-link raw-topic-link'>Construction of Physical BAYC Monument</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/withdrawn/18' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #9D9D9C'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Withdrawn AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/treasury' class='discourse-tag'>treasury</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/NFTC" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/nftc/25/3957_2.png" class="avatar" title='NFTC - Original Poster' aria-label='NFTC - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/apethor" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/apethor/25/3047_2.png" class="avatar" title='apethor - Frequent Poster' aria-label='apethor - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Mantis" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/mantis/25/2853_2.png" class="avatar" title='Mantis - Frequent Poster' aria-label='Mantis - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Frequent Poster' aria-label='system - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Pearson" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/p/a9a28c/25.png" class="avatar" title='Pearson - Most Recent Poster' aria-label='Pearson - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>23</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>1018</span>
+          </td>
+          <td>
+            November 8, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='12'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/understanding-the-roles-responsibilities-of-ape-foundation/8261' class='title raw-link raw-topic-link'>Understanding the roles &amp; responsibilities of Ape Foundation</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/withdrawn/18' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #9D9D9C'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Withdrawn AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/JoshBobrowsky" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/joshbobrowsky/25/4942_2.png" class="avatar" title='JoshBobrowsky - Original Poster' aria-label='JoshBobrowsky - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/bc" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/bc/25/2029_2.png" class="avatar" title='bc - Frequent Poster' aria-label='bc - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/RedVulkan" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/redvulkan/25/1573_2.png" class="avatar" title='RedVulkan - Frequent Poster' aria-label='RedVulkan - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/system" class="">
+                <img width="25" height="25" src="https://global.discourse-cdn.com/apecoin/original/1X/5f6ded5c91cffb569faa208776309b3229530244.png" class="avatar" title='system - Frequent Poster' aria-label='system - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/river" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/r/76d3ee/25.png" class="avatar" title='river - Most Recent Poster' aria-label='river - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>7</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>758</span>
+          </td>
+          <td>
+            October 19, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='13'>
+            <span class="link-top-line">
+              <a itemprop='url' href='https://forum.apecoin.com/t/aip-106-poap-voting-rewards/8188' class='title raw-link raw-topic-link'>AIP-106: POAP Voting Rewards</a>
+            </span>
+            <div class="link-bottom-line">
+                <a href='/c/final-aips/accepted-aips/23' class='badge-wrapper bullet'>
+                  <span class='badge-category-bg' style='background-color: #CD41E5'></span>
+                  <span class='badge-category clear-badge'>
+                    <span class='category-name'>Accepted AIPs</span>
+                  </span>
+                </a>
+                <div class="discourse-tags">
+                    <a href='https://forum.apecoin.com/tag/aip' class='discourse-tag'>aip</a>
+                    ,&nbsp;
+                    <a href='https://forum.apecoin.com/tag/voting' class='discourse-tag'>voting</a>
+                    
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="https://forum.apecoin.com/u/0xSword" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/0xsword/25/4923_2.png" class="avatar" title='0xSword - Original Poster' aria-label='0xSword - Original Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/RedVulkan" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/redvulkan/25/1573_2.png" class="avatar" title='RedVulkan - Frequent Poster' aria-label='RedVulkan - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/maariab" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/maariab/25/2151_2.png" class="avatar" title='maariab - Frequent Poster' aria-label='maariab - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Marklar" class="">
+                <img width="25" height="25" src="/user_avatar/forum.apecoin.com/marklar/25/2718_2.png" class="avatar" title='Marklar - Frequent Poster' aria-label='Marklar - Frequent Poster'>
+              </a>
+              <a href="https://forum.apecoin.com/u/Escape" class="latest">
+                <img width="25" height="25" src="https://avatars.discourse-cdn.com/v4/letter/e/f475e1/25.png" class="avatar" title='Escape - Most Recent Poster' aria-label='Escape - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>35</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>2443</span>
+          </td>
+          <td>
+            January 12, 2023
+          </td>
+        </tr>
+    </tbody>
+
+  </table>
+</div>
+
+  <div class="navigation" role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+  </div>
+
+
+ <!-- include_crawler_content? -->
+
+
+
+  
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/tos' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/privacy' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  </body>
+  
+</html>
