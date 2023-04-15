@@ -1,0 +1,21 @@
+This codebase is a part of the go-ethereum library, which is a free software that can be redistributed and modified under the terms of the GNU Lesser General Public License. The codebase contains functions for reading and filtering nodes, as well as a FairMix function for mixing nodes from multiple sources.
+
+The `TestReadNodes` function tests the `ReadNodes` function, which takes an iterator and a number of nodes to read, and returns a slice of nodes. The function creates a new `genIter` iterator and reads 10 nodes from it using `ReadNodes`. The `checkNodes` function is then called to verify that the slice of nodes has the correct length and contains no duplicates.
+
+The `TestReadNodesCycle` function tests the `ReadNodes` function in a scenario where the iterator returns less than the requested number of nodes in an endless cycle. The function creates a new `callCountIter` iterator that wraps a `CycleNodes` iterator containing three test nodes. The `ReadNodes` function is called with the `callCountIter` iterator and a request for 10 nodes. The `checkNodes` function is then called to verify that the slice of nodes has the correct length and contains no duplicates. Finally, the function checks that the `Next` function of the `callCountIter` iterator was called exactly 10 times.
+
+The `TestFilterNodes` function tests the `Filter` function, which takes an iterator and a filter function, and returns a new iterator that only returns nodes that pass the filter. The function creates a slice of 100 test nodes and creates a new iterator using `IterNodes`. The `Filter` function is then called with the iterator and a filter function that only returns nodes with a sequence number greater than or equal to 50. The function then iterates over the filtered iterator and checks that the returned nodes have the correct sequence number.
+
+The `checkNodes` function is a helper function that takes a slice of nodes and a desired length, and checks that the slice has the correct length and contains no duplicates.
+
+The `TestFairMix` function tests the `NewFairMix` and `AddSource` functions, which create a new FairMix object and add sources to it. The function creates a new FairMix object with a timeout of 1 second and adds three `genIter` sources to it. The `ReadNodes` function is then called with the FairMix object and a request for 500 nodes. The `checkNodes` function is then called to verify that the slice of nodes has the correct length and contains no duplicates. Finally, the function checks that the distribution of node IDs in the slice is approximately equal for each source.
+
+The `testMixerFairness` function is a helper function that tests the fairness of the FairMix function by calling `NewFairMix`, adding three `genIter` sources to it, and reading 500 nodes from it. The function then checks that the distribution of node IDs in the slice is approximately equal for each source.
+
+The `TestFairMixNextFromAll` function tests the `NewFairMix` and `AddSource` functions in a scenario where the 'fair' choice doesn't return a node within the timeout. The function creates a new FairMix object with a timeout of 1 millisecond and adds a `genIter` source and a `CycleNodes` source to it. The `ReadNodes` function is then called with the FairMix object and a request for 500 nodes. The `checkNodes` function is then called to verify that the slice of nodes has the correct length and contains no duplicates. Finally, the function checks that all nodes in the slice were returned by the `CycleNodes` source.
+
+The `TestFairMixEmpty` function tests the `NewFairMix` function in a scenario where no sources are added to it. The function creates a new FairMix object and calls the `ReadNodes` function with it and a request for 500 nodes. The `checkNodes` function is then called to verify that the slice of nodes is empty. The codebase contains five test functions: `TestFairMixNext`, `TestFairMixRemoveSource`, `TestFairMixClose`, `idPrefixDistribution`, and `approxEqual`. Each test function tests a different aspect of the `FairMix` struct.
+
+## TestFairMixNext
+
+This test function tests the `Next` method of the `FairMix` struct. It creates a

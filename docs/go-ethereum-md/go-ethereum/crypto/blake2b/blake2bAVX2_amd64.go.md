@@ -1,0 +1,11 @@
+This codebase contains a set of functions that implement the BLAKE2b hash function using different CPU instructions sets. Below is a brief description of each function:
+
+`init()`: This function is called when the package is initialized. It sets the `useAVX2`, `useAVX`, and `useSSE4` variables to `true` if the CPU supports the corresponding instruction sets.
+
+`fAVX2(h *[8]uint64, m *[16]uint64, c0, c1 uint64, flag uint64, rounds uint64)`: This function takes pointers to an array of 8 `uint64` values `h`, an array of 16 `uint64` values `m`, two `uint64` values `c0` and `c1`, a `flag` value, and a `rounds` value. It performs the BLAKE2b hash function using the AVX2 instruction set and updates the `h` array in place.
+
+`fAVX(h *[8]uint64, m *[16]uint64, c0, c1 uint64, flag uint64, rounds uint64)`: This function takes pointers to an array of 8 `uint64` values `h`, an array of 16 `uint64` values `m`, two `uint64` values `c0` and `c1`, a `flag` value, and a `rounds` value. It performs the BLAKE2b hash function using the AVX instruction set and updates the `h` array in place.
+
+`fSSE4(h *[8]uint64, m *[16]uint64, c0, c1 uint64, flag uint64, rounds uint64)`: This function takes pointers to an array of 8 `uint64` values `h`, an array of 16 `uint64` values `m`, two `uint64` values `c0` and `c1`, a `flag` value, and a `rounds` value. It performs the BLAKE2b hash function using the SSE4 instruction set and updates the `h` array in place.
+
+`f(h *[8]uint64, m *[16]uint64, c0, c1 uint64, flag uint64, rounds uint64)`: This function takes pointers to an array of 8 `uint64` values `h`, an array of 16 `uint64` values `m`, two `uint64` values `c0` and `c1`, a `flag` value, and a `rounds` value. It selects the appropriate implementation of the BLAKE2b hash function based on the CPU's instruction set and calls it. If the CPU does not support any of the instruction sets, it falls back to the generic implementation `fGeneric`. This function is not exported and is only used internally by the package.

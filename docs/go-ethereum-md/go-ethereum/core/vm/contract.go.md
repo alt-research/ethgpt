@@ -1,0 +1,13 @@
+This codebase is a part of the go-ethereum library, which is a free software that can be redistributed and modified under the terms of the GNU Lesser General Public License. This file contains the implementation of the Contract and AccountRef types, which are used in the Ethereum Virtual Machine (EVM) to represent contracts and their references.
+
+The ContractRef interface is defined to provide a common interface for different types of contract references. The AccountRef type is a concrete implementation of the ContractRef interface, which is used during EVM initialization to fetch addresses. The Address method of the AccountRef type casts it to a common.Address type.
+
+The Contract type represents an Ethereum contract in the state database. It contains the contract code, calling arguments, and other relevant information. The NewContract function returns a new Contract environment for the execution of EVM. It takes the caller and object ContractRef types, the value to be transferred, and the gas limit as input parameters. The caller and object ContractRef types are used to initialize the CallerAddress and self fields of the Contract type, respectively. The jumpdests field of the Contract type is a map that stores the aggregated result of JUMPDEST analysis. The analysis field is a locally cached result of JUMPDEST analysis.
+
+The validJumpdest function checks if the provided destination is a valid JUMPDEST opcode. The isCode function checks if the provided PC location is an actual opcode, as opposed to a data-segment following a PUSHN operation. The `codeBitmap` function performs a jump destination analysis on the given bytecode and returns a `codeSegment` struct that represents the jump destination bitmap and the code segment. If the contract has already been analyzed, the function retrieves the analysis from the parent context. Otherwise, it performs the analysis and saves it in the parent context. If the contract does not have a code hash, it performs the analysis and saves it locally in the contract.
+
+The `AsDelegate` function sets the contract to be a delegate call and returns the current contract for chaining calls. It sets the caller address and value to that of the parent contract.
+
+The `GetOp` function returns the n-th element in the contract's byte array as an `OpCode`. If the index is out of range, it returns `STOP`.
+
+The `Caller` function returns the caller of the contract. If the contract is

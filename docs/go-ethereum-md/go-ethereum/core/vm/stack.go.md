@@ -1,0 +1,5 @@
+The `vm` package provides an implementation of the Ethereum Virtual Machine (EVM) used for executing smart contracts on the Ethereum blockchain.
+
+The `Stack` type is an object for basic stack operations. Items popped to the stack are expected to be changed and modified. The `Data` function returns the underlying `uint256.Int` array. The `push` function pushes a new `uint256.Int` onto the stack. The `pop` function pops the top `uint256.Int` off the stack and returns it. The `len` function returns the length of the stack. The `swap` function swaps the `n`th and top elements of the stack. The `dup` function duplicates the `n`th element of the stack and pushes it onto the stack. The `peek` function returns a pointer to the top element of the stack. The `Back` function returns a pointer to the `n`th element from the back of the stack.
+
+The `newstack` function returns a new `Stack` object from the `stackPool` sync pool. The `returnStack` function returns a `Stack` object to the `stackPool` sync pool.

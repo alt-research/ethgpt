@@ -1,0 +1,5 @@
+The `debug` package provides functionality for debugging and profiling the Ethereum client. It defines a `HandlerT` type that implements the `Handler` interface and provides methods for starting and stopping tracing.
+
+The `StartGoTrace` method of the `HandlerT` type turns on tracing and writes to the given file. It acquires a lock on the `HandlerT` mutex, checks if tracing is already in progress, creates a new file with the provided name, starts tracing to the file, sets the `traceW` field to the file, sets the `traceFile` field to the file name, logs that tracing has started, and returns `nil` if successful. If an error occurs, it returns the error.
+
+The `StopGoTrace` method of the `HandlerT` type stops an ongoing trace. It acquires a lock on the `HandlerT` mutex, stops tracing, checks if tracing is in progress, logs that tracing has stopped, closes the `traceW` file, sets the `traceW` field to `nil`, sets the `traceFile` field to an empty string, and returns `nil` if successful. If an error occurs, it returns the error.

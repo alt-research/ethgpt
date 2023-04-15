@@ -1,0 +1,9 @@
+This is a Go source code file that contains a command-line interface (CLI) tool for Node Discovery v5. The tool provides several subcommands, including `ping`, `resolve`, `crawl`, `test`, and `listen`. 
+
+The `discv5Command` variable defines the main command, which has several subcommands defined as `cli.Command` variables. Each subcommand has a name, usage, action, and flags. The `discv5PingCommand` subcommand sends a ping to a node, while the `discv5ResolveCommand` subcommand finds a node in the DHT. The `discv5CrawlCommand` subcommand updates a `nodes.json` file with random nodes found in the DHT. The `discv5TestCommand` subcommand runs protocol tests against a node, and the `discv5ListenCommand` subcommand runs a node.
+
+The `discv5Ping` function sends a ping to a node and returns the result. The `discv5Resolve` function finds a node in the DHT and returns the result. The `discv5Crawl` function updates a `nodes.json` file with random nodes found in the DHT. The `discv5Test` function runs protocol tests against a node. The `discv5Listen` function runs a node.
+
+The `startV5` function starts an ephemeral discovery v5 node. It takes a `cli.Context` as input and returns a `discover.UDPv5` object. The function creates a discovery configuration using the `makeDiscoveryConfig` function, listens on a socket using the `listen` function, and creates a discovery v5 node using the `discover.ListenV5` function. The function returns the discovery v5 node.
+
+Overall, this source code file provides a CLI tool for Node Discovery v5 that allows users to send pings, resolve nodes, crawl the DHT, run protocol tests, and run a node. The code is well-organized and easy to read, with clear and concise function names and comments.

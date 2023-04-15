@@ -1,0 +1,3 @@
+The `debug` package provides functionality for debugging and profiling Go programs. It defines a single function, `LoudPanic`.
+
+The `LoudPanic` function panics in a way that gets all goroutine stacks printed on stderr. It sets the traceback mode to "all" using the `debug.SetTraceback` function and then panics with the provided argument. This function is useful for debugging hard-to-reproduce errors that may be caused by goroutine interactions. When the program panics, the stack traces of all goroutines are printed to stderr, making it easier to identify the cause of the error. This function is only available in Go 1.6 and later, as indicated by the build tag at the top of the file.

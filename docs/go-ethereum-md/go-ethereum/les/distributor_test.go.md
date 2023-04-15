@@ -1,0 +1,25 @@
+This is a Go source code file that contains a test suite for the `requestDistributor` type. The `requestDistributor` type is responsible for distributing requests to peers in a distributed system. The code is licensed under the GNU Lesser General Public License.
+
+The `testDistReq` type represents a test request that can be sent to a `testDistPeer`. It has a `cost` field that represents the cost of the request, a `procTime` field that represents the processing time of the request, an `order` field that represents the order in which the request was sent, and a `canSendTo` field that is a map of `testDistPeer` pointers that the request can be sent to.
+
+The `getCost` method of the `testDistReq` type returns the cost of the request. The `canSend` method of the `testDistReq` type returns a boolean indicating whether the request can be sent to a given `distPeer`. The `request` method of the `testDistReq` type returns a function that sends the request to a given `distPeer`.
+
+The `testDistPeer` type represents a test peer that can receive requests from a `requestDistributor`. It has a `sent` field that is a slice of `testDistReq` pointers representing the requests that have been sent to the peer, a `sumCost` field that represents the sum of the costs of the requests that have been sent to the peer, and a `lock` field that is a `sync.RWMutex` used to synchronize access to the `sent` and `sumCost` fields.
+
+The `send` method of the `testDistPeer` type adds a given `testDistReq` pointer to the `sent` slice and updates the `sumCost` field accordingly.
+
+The `worker` method of the `testDistPeer` type is a goroutine that processes requests sent to the peer. It waits for a request to be sent to the peer, processes the request, and repeats. If the `checkOrder` parameter is true, it checks that requests are processed in the correct order.
+
+The `waitBefore` method of the `testDistPeer` type returns the amount of time the peer should wait before processing a request with a given cost, and a float64 representing the fraction of the buffer limit that is available for the peer to use. The `canQueue` method of the `testDistPeer` type always returns true. The `queueSend` method of the `testDistPeer` type sends a request to the peer and returns true.
+
+The `TestRequestDistributor` function is a test function that tests the `requestDistributor` type without resending requests. The `TestRequestDistributorResend` function is a test function that tests the `requestDistributor` type with resending requests. Both functions create a `requestDistributor` instance, create a number of `testDistPeer` instances, register the peers with the distributor, and start worker goroutines for each peer. They then create a number of `testDistReq` instances, send them to the distributor, and wait for them to be processed. If `checkOrder` is true, the functions check that requests are processed in the correct order. The code snippet provided seems to be a part of a larger codebase, and it is difficult to provide a complete documentation without understanding the context and purpose of the code. However, I can provide an explanation of the functions and variables used in this code snippet.
+
+The code snippet seems to be a test function that tests the distribution of requests to peers. The function takes in a testing object `t`, a request object `rq`, a distribution object `dist`, and a boolean flag `resend`. The `rq` object seems to have three functions associated with it: `getCost`, `canSend`, and `request`. 
+
+The `dist.queue(req)` function seems to be used to queue the request to a peer. The function then uses a goroutine to send the request to the peer. The `cnt` variable is used to determine the number of times the request should be sent to the peer. If the `resend` flag is set to true and the `canSendTo` field of the `rq` object is not empty, then the `cnt` variable is set to a random number between 1 and `testDistMaxResendCount`. 
+
+The for loop is used to send the request to the peer `cnt` number of times. If `i` is not equal to 0, then the request is queued again using the `dist.queue(req)` function. The function then waits for a response from the peer using the `<-chn` syntax. If the response is nil, then the test fails with an error message. If the response is not nil, then the response is cast to a `testDistPeer` object and checked if it is in the `canSendTo` field of the `rq` object. If it is not in the `canSendTo` field, then the test fails with an error message.
+
+The last if statement seems to be used to introduce some randomness in the test by sleeping for a random amount of time if a random number between 0 and 999 is equal to 0.
+
+Overall, the code seems to be testing the distribution of requests to peers and ensuring that the requests are sent to the correct peers.

@@ -1,0 +1,27 @@
+The `debug` package provides functionality for logging and debugging. It defines several flags for configuring logging verbosity, log format, log file rotation, and pprof HTTP server. It also provides a `Memsize` variable for displaying memory usage statistics.
+
+The `verbosityFlag` flag sets the logging verbosity level. The `vmoduleFlag` flag sets the per-module verbosity level. The `logjsonFlag` flag formats logs with JSON. The `logFormatFlag` flag sets the log format to use. The `logFileFlag` flag writes logs to a file. The `backtraceAtFlag` flag requests a stack trace at a specific logging statement. The `debugFlag` flag prepends log messages with call-site location. The `logRotateFlag` flag enables log file rotation. The `logMaxSizeMBsFlag` flag sets the maximum size in MBs of a single log file. The `logMaxBackupsFlag` flag sets the maximum number of log files to retain. The `logMaxAgeFlag` flag sets the maximum number of days to retain a log file. The `logCompressFlag` flag compresses the log files.
+
+The `pprofFlag` flag enables the pprof HTTP server. The `pprofPortFlag` flag sets the pprof HTTP server listening port. The `pprofAddrFlag` flag sets the pprof HTTP server listening interface.
+
+The `Memsize` variable is a `memsizeui.Handler` that displays memory usage statistics.
+
+The `debug` package also provides a `initLogging` function that initializes the logging system based on the provided flags. It sets the logging verbosity level, per-module verbosity level, log format, log file, log file rotation, and pprof HTTP server. It also sets the log output to `os.Stderr` if the output is a terminal, or to a file if the `log.file` flag is set. Finally, it sets the logging backtrace at a specific logging statement if the `log.backtrace` flag is set.
+
+The `initPprof The `debug` package provides functionality for debugging and profiling. It defines a set of flags that can be used to configure logging and profiling, and provides a `Setup` function that initializes logging and profiling based on the provided flags.
+
+The `Flags` variable is a slice of `cli.Flag` that holds all command-line flags required for debugging. These flags include `verbosityFlag`, `vmoduleFlag`, `backtraceAtFlag`, `debugFlag`, `logjsonFlag`, `logFormatFlag`, `logFileFlag`, `logRotateFlag`, `logMaxSizeMBsFlag`, `logMaxBackupsFlag`, `logMaxAgeFlag`, `logCompressFlag`, `pprofFlag`, `pprofAddrFlag`, `pprofPortFlag`, `memprofilerateFlag`, `blockprofilerateFlag`, `cpuprofileFlag`, and `traceFlag`.
+
+The `init` function initializes the global `glogger` variable to a new `log.GlogHandler` with a `log.StreamHandler` that writes to `os.Stderr` and a verbosity level of `log.LvlInfo`. It then sets the root logger's handler to `glogger`.
+
+The `Setup` function initializes profiling and logging based on the provided CLI flags. It first determines the log format based on the `logFormatFlag` and `logjsonFlag` flags. If `logjsonFlag` is true, it sets the log format to JSON. If `logFormatFlag` is "json", it sets the log format to JSON. If `logFormatFlag` is "logfmt", it sets the log format to logfmt. If `logFormatFlag` is empty or "terminal", it sets the log format to terminal with color if the output is a terminal. If `logFormatFlag` is anything else, it returns an error.
+
+It then creates a new `log.StreamHandler` with the determined log format and output to `os.Stderr`. If `logFileFlag` is not empty, it validates the log location and sets `logFile` to the provided file path. If `logRotateFlag` is true, it creates a new `lumberjack.Logger` with the provided log file, max size, max backups, max age, and compression settings, The `logging` package provides functionality for configuring and starting logging, profiling, and tracing in a Go program.
+
+The `Configure` function configures the logging, profiling, and tracing settings based on the provided context. It sets the log output stream to the provided `logOutputStream` and sets the log format to the `stdHandler`. If a log file is specified in the context, it creates a new file handler and sets the log output stream to the file. It sets the logging verbosity and vmodule based on the context flags. It sets the logging debug flag based on the context flag. It sets the logging backtrace based on the context flag. It sets the memory profiling rate based on the context flag. It sets the block profiling rate based on the context flag. If a trace file is specified in the context, it starts a new Go trace. If a CPU profile file is specified in the context, it starts a new CPU profile. If the pprof flag is set in the context, it starts a new pprof server. If a log file is specified or rotation is enabled, it logs a message indicating that logging is configured. It returns an error if any of the configuration steps fail.
+
+The `StartPProf` function starts a new pprof server on the provided address. If the `withMetrics` flag is set, it hooks go-metrics into expvar on any `/debug/metrics` request, loads all vars from the registry into expvar, and executes the regular expvar handler.
+
+The `Exit` function stops all running profiles and flushes their output to the respective file. If the log output stream is an `io.Closer`, it closes the stream.
+
+The `validateLogLocation` function validates that the provided path is writable by creating a temporary file in the directory and then removing it. It returns an error if the directory cannot be created or the temporary file cannot be created or removed.

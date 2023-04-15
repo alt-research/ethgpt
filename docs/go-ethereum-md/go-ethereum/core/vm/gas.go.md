@@ -1,0 +1,5 @@
+The `vm` package provides an implementation of the Ethereum Virtual Machine (EVM) used to execute smart contracts on the Ethereum blockchain.
+
+The `GasQuickStep`, `GasFastestStep`, `GasFastStep`, `GasMidStep`, `GasSlowStep`, and `GasExtStep` constants represent the gas costs for different types of EVM operations.
+
+The `callGas` function calculates the actual gas cost of a call. If the `isEip150` flag is set, the gas cost is adjusted according to the TangerineWhistle hard fork. The `availableGas` parameter represents the total amount of gas available for the call, the `base` parameter represents the base gas cost of the call, and the `callCost` parameter represents the additional gas cost of the call. The function returns the actual gas cost of the call, or an error if the gas cost exceeds the maximum uint64 value.

@@ -1,0 +1,3 @@
+This codebase contains a package `blake2b` that provides implementations of the BLAKE2b hash function. The code registers the BLAKE2b hash functions with the `crypto` package.
+
+`init()`: This function is called when the package is initialized. It defines three functions `newHash256`, `newHash384`, and `newHash512` that return instances of the `blake2b` hash functions with the corresponding digest sizes. It then registers these hash functions with the `crypto` package using the `crypto.RegisterHash` function and the BLAKE2b hash function constants `crypto.BLAKE2b_256`, `crypto.BLAKE2b_384`, and `crypto.BLAKE2b_512`. This allows the BLAKE2b hash functions to be used with the `crypto` package's `Hash` interface.
