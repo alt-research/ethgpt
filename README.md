@@ -17,10 +17,10 @@ We believe ETHGPT will significantly improve the efficiency of accessing Ethereu
 
 ### Comparison
 
-As ChatGPT's knowledge is limited to September 2021, it lacks the latest Ethereum updates, such as the Shanghai upgrade.
-![ChatGPT's reply](https://github.com/jiayaoqijia/ethgpt/blob/main/public/ethgpt_chatgpt.png)
-ETHGPT can provide more precise answers for Shanghai/Shapella upgrade.
-![ETHGPT's reply](https://github.com/jiayaoqijia/ethgpt/blob/main/public/ethgpt_comparison.png)
+As ChatGPT's knowledge is limited to September 2021, it lacks the latest Ethereum updates, such as the Shanghai upgrade. ETHGPT can provide more precise answers for Shanghai/Shapella upgrade.
+![ChatGPT's reply](https://github.com/jiayaoqijia/ethgpt/blob/main/public/ethgpt_chatgpt.png) ![ETHGPT's reply](https://github.com/jiayaoqijia/ethgpt/blob/main/public/ethgpt_comparison.png)
+
+
 
 ### Prerequisites
 Node.js v16+
