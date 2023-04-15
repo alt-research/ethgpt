@@ -1,0 +1,25 @@
+---
+sidebar_position: 1
+---
+
+# Introduction
+
+## Overview
+
+The 1inch Fusion Mode offers users a way to execute swaps without spending gas or risking being front-run. To the user, Fusion Mode looks like a swap, but technically it is a limit order with a variable exchange rate filled by a third party called a Resolver. An order's exchange rate decreases from the desired rate to the minimal return amount (Dutch auction) until it becomes profitable for Resolvers to fill the order. Multiple resolvers compete for the order to ensure it is filled before the rate falls to the minimal return amount. Here are some examples of opportunities for resolvers to gain profit:
+
+- The Dutch auction constantly decreases the order rate;
+- Gas economy when filling matching orders;
+- Gas economy due to batch filling.
+
+## Dutch auction filling rate
+
+Each order has an auction start timestamp, which is calculated as the order's signature timestamp plus a waiting period. The waiting period is a delay that compensates for different block generation speeds on different networks. Before the auction begins, an order can be filled at the auction start rate, which is the maximum rate that a user can receive. After the auction begins, the order filling rate gradually decreases over time.
+
+The order filling rate is a piecewise linear function that depends on multiple parameters, such as swap volume, gas costs, and the chosen preset (e.g., fast, fair, auction). To reduce price impact, the source token volume is divided into parts, which results in several price points, assuming that arbitragers will move the price back after each resolver’s trade. This approach benefits users by providing better rates, while also allowing resolvers to make a profit from each transaction.
+
+Therefore, we recommend that resolvers try to partially fill orders by splitting the `remainingMakerAmount` into 6-10 parts and checking if at least one of those parts can be filled.
+
+Below is a real-life example.
+
+<img src='/img/fusion/auction-4.png' alt="dutch-auction-example"/>

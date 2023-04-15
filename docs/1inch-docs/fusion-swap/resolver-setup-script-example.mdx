@@ -1,0 +1,69 @@
+---
+sidebar_position: 4
+---
+
+# Resolver’s setup script example
+
+The following script executes the steps to become a resolver:
+
+1. Approve staking 1inch for 1inch contract.
+2. Stake 1inch to gain unicorn power.
+3. Add a delegation pod to enable power delegation.
+4. Register yourself to be a resolver.
+5. (Optional) Change the default farm to a new farm.
+6. Delegate available unicorn power to yourself.
+7. Register a resolver at the whitelist.
+8. Set up a worker to settle fusion orders.
+
+## Setup script example
+
+```jsx
+const { ether, time } = require('@1inch/solidity-utils');
+const { ethers } = require('hardhat');
+
+// Setup envirement
+const inch = await ethers.getContractAt('IERC20', '0x111111111117dc0aa78b770fa6a738034120c302');
+const st1inch = await ethers.getContractAt('IERC20', '0x9a0c8ff858d273f57072d714bca7411d717501d7');
+const powerPod = await ethers.getContractAt('IERC20', '0xaccfac2339e16dc80c50d2fa81b5c2b049b4f947');
+const whitelist = await ethers.getContractAt('WhitelistRegistry', '0xcb8308fcB7BC2f84ed1bEa2C016991D34de5cc77');
+
+const stakeAmount = ether('1000000');
+const lockTime = time.duration.years('2');
+const myShareToken = {
+    name: 'MyShareTokenName',
+    symbol: 'MST',
+};
+const worker = '...'; // Address of wallet which send transaction
+const [resolver] = await ethers.getSigners();
+
+// Ethers setup script
+
+// approve 1inch staking
+await (await inch.connect(resolver).approve(st1inch.address, stakeAmount));
+// stake 1inch token
+await (await st1inch.connect(resolver).deposit(stakeAmount, lockTime)).wait();
+// add delegation pod to
+// 1. make it possible for any user to delegate staking power to
+// the resolver's account
+// 2. make it possible for a resolver to allocate its staking power for itself
+await (await st1inch.connect(resolver).addPod(powerPod.address)).wait();
+
+// register resolver's delegation token to count stakers' shares and rewards
+await (
+    await powerPod
+        .connect(resolver)
+        .functions['register(string,string)'](
+            myShareToken.name,
+            myShareToken.symbol,
+        )
+).wait();
+
+// Delegate staked power to self
+await (await powerPod.connect(resolver).delegate(resolver.address)).wait();
+
+// Whitelist resolver (there should be enough unicorn power to be in top 5)
+await (await whitelist.connect(resolver).register()).wait();
+
+// Add worker address from which order settlement will be executed
+await (await whitelist.connect(resolver).promote(1, worker)).wait();
+```
