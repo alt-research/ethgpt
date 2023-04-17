@@ -78,13 +78,4 @@ export const makeChain = (
     returnSourceDocuments: false,
     // k: 1, //number of source documents to return
   });
-  // return new ConversationalRetrievalQAChain.fromLLM(
-  //     docChain,
-  //   // return new ChatVectorDBQAChain({
-  //     vectorstore.asRetriever()
-  //     // combineDocumentsChain: docChain,
-  //     // questionGeneratorChain: questionGenerator,
-  //     // returnSourceDocuments: true,
-  //     // k: 1, //number of source documents to return
-  //   );
 };
